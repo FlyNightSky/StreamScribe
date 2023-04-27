@@ -1,0 +1,306 @@
+html,body{
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 320px) and (max-width: 560px){
+  #sun{
+    display: none;
+  }
+  #text{
+    font-size: 49px;
+  }
+  #about{
+    font-size: 20px;
+    width:70%;
+    
+  }
+  #learn-more{
+    width: 166px;
+height: 52px;
+  }
+  #more{
+    display: none;
+  }
+  #learn-btn{
+left: 60px;
+top: 755px;
+  }
+  
+  
+}
+@media screen and (min-width: 560px) and (max-width: 1200px) {
+  #text{
+font-size: 49px;
+  }
+    #more{
+    
+  }
+  #about{
+    font-size: 28px;
+width: 70%;
+
+  }
+  #sun{
+    display:none;
+  }
+   #learn-more{
+    width: 166px;
+height: 52px;
+  }
+  #learn-btn{
+left: 60px;
+top: 755px;
+  }
+  
+}
+@media screen and (min-width: 1200px) {
+  #text{
+font-size: 69px;
+  }
+  #about{
+    font-size: 38px;
+width: 734px;
+
+  }
+  #sun{
+    display:block;
+  }
+  #learn-more{
+    width: 152px;
+height: 72px;
+  }
+  #learn-btn{
+   left: 54px;
+top: 761px;
+  }
+  
+}
+@media screen and (min-width: 1200px) {
+  #text{
+    font-size: 49px;
+  }
+  #about{
+    font-size: 38px;
+width: 734px;
+
+  }
+  #learn-more{
+    width: 152px;
+height: 72px;
+  }
+  #learn-btn{
+   left: 54px;
+top: 761px;
+  }
+}
+
+
+#navbar{
+backdrop-filter: blur(5px);
+    left:0;
+    right:0;
+    top:0;
+    
+    color:white;
+    z-index:9999999999;
+  position: fixed;
+}
+
+#menu{
+width: 46px;
+height: 46px;
+float:right;
+padding-top:13px;
+  transition: filter .8s ;
+}
+#menu:hover{
+filter: brightness(0) invert(1);
+}
+
+#logo{
+width: 59px;
+height: 59px;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom:5px;
+transition: filter .3s , transform .9s ;
+}
+
+#logo:hover{
+filter: brightness(0) invert(1);
+  transform:rotate(360deg);
+}
+
+
+
+#dark{
+width: 50px;
+height: 50px;
+float:right;
+padding-left: 20px;
+padding-top: 11px;
+padding-bottom:5px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+  transition: filter .8s ;
+}
+#dark:hover{
+filter: brightness(0) invert(1);
+}
+
+#info{
+width: 100%;
+height: 1004px;
+left: 0;
+  top:0;
+position:absolute;
+background: #881B1B;
+  z-index: 0;
+}
+
+#text{
+width: 494px;
+height: 317px;
+left: 42px;
+top: 320px;
+z-index:100;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+
+line-height: 80px;
+position: absolute;
+color: #EE6969;
+
+mix-blend-mode: lighten;
+}
+
+#about{
+position: absolute;
+height: 446px;
+left: 41px;
+top: 528px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+
+color: rgba(191, 127, 127, 0.55);
+
+mix-blend-mode: luminosity;
+}
+
+
+
+#learn-more{
+  position: absolute;
+
+left: 41px;
+top: 751px;
+
+background: #9E2626;
+border-radius: 15px;
+    transition: background 1s ;
+
+}
+
+#learn-btn{
+  position: absolute;
+width: 204px;
+height: 52px;
+
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 45px;
+
+color: #FFABAB;
+}
+
+#learn-more:hover{
+  background: #d84b4b ;
+}
+
+#sun{
+position: absolute;
+width: 342px;
+height: 587px;
+top: 247px;
+left:67%;
+background: url(file.jpg);
+mix-blend-mode: normal;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 46px;
+}
+
+#sec2{
+position: absolute;
+width: 100%;
+height: 879px;
+left: 0px;
+top: 1001px;
+
+background: #771818;
+}
+
+#doing{
+  position: absolute;
+width: 457px;
+height: 80px;
+left: 484px;
+top: 1145px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 80px;
+
+color: #FF7979;
+
+mix-blend-mode: luminosity;
+
+}
+
+#underline{
+  position: absolute;
+width: 366px;
+height: 20px;
+left: 484px;
+top: 1225px;
+
+background: #B12424;
+}
+
+#heart{
+  position: absolute;
+width: 351px;
+height: 557px;
+left: 902px;
+top: 1291px;
+
+background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4N3pDj5ifVxvdXDY1ZAF36ZvYPJtGQ5QMsw:https://wallpapercave.com/wp/wp7885554.jpg&usqp=CAU);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 42px;
+}
+
+#more{
+  position: absolute;
+width: 740px;
+height: 544px;
+left: 114px;
+top: 1331px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+
+color: #C95F5F;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

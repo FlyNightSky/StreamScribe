@@ -1,3 +1,3 @@
 # StreamScribe
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-7ywkxe)
+My Portfolio. Tell me what I should add or change

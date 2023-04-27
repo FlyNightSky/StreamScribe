@@ -1,23 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500;600&family=Montserrat:wght@500;600&family=Overpass:wght@500;600&family=Poppins:wght@700&family=Secular+One&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <title>‎ StreamScribe | Home</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.svg" />
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
+    <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #a60d0d;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #e04f4f;
+      }
+    </style>
+
+    <div id="navbar" style="">
+      <img src="/images/logo.svg" alt="logo" id="logo" />
+      <img src="/images/menu-line.svg" alt="hamburger-menu" id="menu" />
+      <img src="/images/moon-line.svg" alt="dark" id="dark" />
+    </div>
+
+    <div id="info"></div>
+    <div id="text">Hello I am, StreamScribe!</div>
+
+    <div id="about">
+      I am a front end website developer that is getting into the world of
+      back-end web-development
+    </div>
+    <div id="learn-more"></div>
+    <div id="learn-btn">Learn More!</div>
+    <img src="images/file.jpg" id="sun" />
+    <div id="sec2"></div>
+
+    <div id="doing">What I am doing</div>
+    <div id="underline"></div>
+
+    <img
+      id="heart"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCqXTep9gFHWWBufH7SoDBIfQqmZzc_bXb7pNTBMayEL4-uvltU5jv2wHNqkM3s7HzAZk:https://lookaside.fbsbx.com/lookaside/crawler/media/%3Fmedia_id%3D2353238411555068&usqp=CAU"
+    />
+    <div id="more">I am learn Supabase for my database, I will be prati</div>
+    <!--<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>Footer</p>
+</div>-->
+
+    <!--background-color: #991212 ; -->
+
+    <!-- Add screen detectors to this for reponsive activity-->
+    <!-- Dont Edit-->
+    <script src="script.js"></script>
   </body>
 </html>
